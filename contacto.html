@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
     <h1><b>Contacto</b></h1>
@@ -12,5 +13,26 @@
    <a href="./registro.html">Registro</a>
    <a href="./nosotros.html">Nosotros</a>
    <a href="./servicios.html">Servicios</a>
+   <p>Estamos trabajando en la construccion de esta pagina para mejorar la interaccion con el usuario</p>
    </body>
+   <form class= "formregis"   action="Resultado.html" method="post">
+    <h1><b>Contactanos</b></h1>
+
+                <label for="nam">Nombre:</label>
+                <input class="inputs" type="text" placeholder="Nombre" name="Nombre" id="nam" >
+
+                <label class="Pre" for="Pre">Presupuesto:</label>
+                <input class="inputs" type="text" placeholder="Presupuesto$" name="Presupuesto" id="Pre" >
+
+                <label class="eml"  for="eml">Correo Electronico:</label>
+                <input class="inputs" type="email" placeholder="xxxx@gmail.com" id="eml" name="Correo">
+        
+                <label for="dir">Mensaje:</label>
+               
+
+                <textarea class="inputs" id="dir" cols="30" rows="2"></textarea>
+               
+
+               <input class="enviar" type="submit" value="Enviar">
+            </form>
 </html>
